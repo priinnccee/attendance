@@ -2,7 +2,7 @@ name: Attendance
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Log attendance setiap hari jam 08:00 UTC (sesuaikan waktu)
+    - cron: '0 8 * * *'  # Log attendance everyday at 08:00 UTC
 
 jobs:
   attendance:
